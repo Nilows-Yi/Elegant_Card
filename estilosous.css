@@ -1,4 +1,27 @@
 
+
+html::before,
+html::after{
+    content: '';
+    width: 200px;
+    height: 200px;
+    background-color: rgb(18, 211, 245);
+    display: block;
+    position: absolute;
+    border-radius: 50%;
+}
+
+html::before{
+    left: 0;
+    top: 0;
+}
+
+html::after{
+    right: 0;
+    /* bottom: -100px; */
+    top: 50%;
+}
+
 body{
     font-family: 'Courier New', Courier, monospace;
 }
@@ -10,3 +33,15 @@ main{
     margin: 0% auto;
 }
 
+header{
+    text-align: center;
+    background-color: tomato;
+    padding: 20px;
+}
+
+section{
+    background-color: lightgoldenrodyellow;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 20px;
+}
