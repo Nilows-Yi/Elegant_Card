@@ -23,8 +23,9 @@ html::after{
 }
 
 body{
-    font-family: 'Courier New', Courier, monospace;
-}
+    min-height: 100vh;
+    background-color:rgb(65, 157, 180);
+    font-family: Arial, Helvetica, sans-serif;}
 
 
 main{
